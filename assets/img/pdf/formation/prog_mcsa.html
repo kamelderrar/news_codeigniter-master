@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Page non trouvée</title>
+	  <meta charset="windows-1252"/>
+
+    <meta name="description" content=" École d'informatique et école de design graphique à Paris - Lyon - Brest - Canada - Formation en alternance et continue, Mastère 1 et Mastère 2 - Design graphique, webdesigner, administrateur système et administrateur réseau, développeur et manager - diplôme d'informatique bac+2 bac+3 bac+4 bac+5." />
+
+    <meta name="keywords" content="école, formation, informatique, alternance, formation en alternance, formation informatique,formation informatique en alternance, BTS, design graphique, webdesigner, formation Bac +5 ,formation Bac +4, PHP,  MySQL" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" name="viewport" />
+    <meta name="verify-v1" content="7fOMm2NrwltL8iGwMwbRW5DJxPiHepEM+6ZgcC7jDHo=" />
+    <meta name="google-site-verification" content="vl4NmGc974_PtHXxL0RadFH0S1rtptR0NPKF0alhKD4" />
+
+
+    <link rel="stylesheet" href="scripts/jquery-ui.structure.min.css"/>
+    <link rel="stylesheet" href="scripts/source/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="scripts/source/helpers/jquery.fancybox-thumbs.css" />
+    <link rel="stylesheet" href="scripts/source/helpers/jquery.fancybox-buttons.css?v=1.0.2" />
+    <link rel="stylesheet" href="scripts/coda/stylesheets/coda-slider-2.0.css"/>
+    <link rel="stylesheet" href="scripts/menu/css/megafish.css" />
+    <link rel="stylesheet" href="styles/fontface.css"/>
+    <link rel="stylesheet" href="styles/commun.css" />
+    <link rel="stylesheet" href="styles/slide.css" />
+    <link rel="stylesheet" href="styles/responsive.css"/>
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+
+
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ SCRIPTS JAVASCRIPT $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="scripts/lib/jquery-1.7.2.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <!-- <script src="scripts/accordion.js"></script> pour la formation continue -->
+    <!-- Fancy box Galerie Photos des événements -->
+    <script src="scripts/source/jquery.fancybox.js"></script>        
+    <script src="scripts/source/helpers/jquery.fancybox-thumbs.js"></script>
+    
+    <!-- Add Button helper (this is optional) -->       
+    <script src="scripts/source/helpers/jquery.fancybox-buttons.js?v=1.0.2"></script>
+    
+    <!-- SLIDE HEADER -->
+    <script src="scripts/slide.js"></script>
+
+    <!-- Google maps pour la page contact -->
+        <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA9guYrTlGslBqMgkGFTojCxThR-G1Knfzb07-khC2i7_h1EenYBQM6xGY-NMiFMCtcXmL1RCVOt49FQ"></script>
+    <script src="scripts/jquery.gmap-1.1.0-min.js"></script>
+        
+    <!--BEGIN coda @ effet parallaxe des textes de formation -->      
+    <script src="scripts/coda/javascripts/jquery.easing.1.3.js"></script>
+    <script src="scripts/coda/javascripts/jquery.coda-slider-2.0.js"></script>       
+    <!--END coda-->
+
+    <!-- jcarousel @ pour la présentation des créations graphiques -->
+    <script src="scripts/jcarousel/jcarousel.js"></script>
+    <!-- fin jcarousel -->
+
+    <!--  RESPONSIVE @ 670px -->
+    <script src="scripts/responsive.js"></script>
+    <!--  FIN RESPONSIVE -->
+    
+    <!-- Sticky menu -->
+    <script src="scripts/effect.js"></script>
+
+    <!-- prefix automatique -->
+    <script type="text/javascript" src="scripts/prefixfree.min.js"></script>
+    <!-- FONCTION pdf etc. -->
+    <script src="scripts/ip-formation.js" type="text/javascript"></script>
+</head>
+<body>
+   <!--facebook sdk-->
+   <div id="fb-root">   
+   </div>
+
+  <!-- Facebook popup -->
+<section id="facebookpopup"> 
+  <a href="#">
+    <span>X</span>
+
+    NEWS DE L'ÉCOLE IPSSI
+  </a>  
+  <div style="position:relative; top:40px" class="fb-page" data-href="https://www.facebook.com/ipformation/" data-width="300" data-height="600" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ipformation/"><a href="https://www.facebook.com/ipformation/">Ecole IPSSI - Ecole d&#039;ingénierie informatique</a></blockquote></div>
+  </div>
+
+  
+    <script>
+    $(document).ready(function(){
+      $("#facebookpopup").draggable();
+
+      $("#facebookpopup a span").click(function(){
+        $("#facebookpopup").css("display", "none");
+        sessionStorage.setItem('facebookpopup', 'masquer');
+
+      });
+      if(sessionStorage.getItem('facebookpopup') == "masquer"){
+        $("#facebookpopup").css("display", "none");
+      }
+
+    });
+    </script>
+  
+</section>
+
+
+   <!--fin facebook sdk-->
+   <div id="pageback" class=" sansposition">
+            <div id="pagebackground">
+        <div id="page">
+            <div id="pagetop">
+              <div id="logo" style="width:680px">
+                  <a href="index.php" title="École ipssi ip-formation / formation informatique en alternance">
+                    <img style="position:relative; top:0px;height:55px" src="images/logo_ipssi.png" alt="logotype de l'école informatique ipssi" />
+                    
+                  </a>
+                  <p style="left:160px; font-size:13px; top:25px">L’École d'ingénierie informatique et design graphique
+                  </p>
+              </div>
+              <div id="formlogin"><form method="post" action="authentification.php" autocomplete="off">
+
+    <div class="formLoginSubmit">
+        <img src="images/job/chouette.png" alt="Chouette de l'école ipssi" id="chouette">
+
+        <div class="inb"><label class="label" for="login"> &gt;&gt; Identifiant &lt;&lt;</label>
+                <input name="champIdentifiant" type="text" id="login" maxlength="16" value="" placeholder="Votre Login ici"/></div>
+        
+        <div class="inb"><label class="label" for="password" > &gt;&gt; Mot de Passe &lt;&lt</label>
+                <input name="champMotPasse" type="password" id="password" maxlength="16" value="" placeholder="Votre mot de passe ici"/></div>
+
+        <div class="inb">
+        <input type="submit" name="boutonok" value="Connexion" id="boutonok" />
+        <a id="mdp" href="mdp_oublie.php" title="Mot de Passe oublié ?">Réinitialiser</a>
+        <a href="#" id="annuler">Annuler - fermer la fenêtre</a>
+        </div>
+
+    </div>
+    
+
+</form>              </div>
+              <div id="socialmedia">
+                <ul id="social">
+                    <li><a href="https://www.facebook.com/pages/IP-Formation-lAcad%C3%A9mie-des-Sciences-Informatiques-Paris/106955319396464" title="facebook" target="_blank">FaceBook<img src="images/facebook.png" alt="facebook"/></a></li>
+                    <li><a href="https://www.linkedin.com/company/ip-formation?trk=biz-companies-cym"  title="linkedin"  target="_blank">LinkedIn<img src="images/linkedin.png" alt="linkedin"/></a></li>
+                    <li><a href="https://twitter.com/ipformation" title="tweeter"  target="_blank">Tweeter<img  src="images/tweeter.png" alt="tweeter"/></a></li>
+
+                    <li><a href="https://www.youtube.com/channel/UCh4HyODPDy1ANPQFVHs_SYQ" title="youtube"  target="_blank">Youtube<img  src="images/youtube.png" alt="youtube"/></a></li>
+                    <li><a href="http://www.viadeo.com/fr/company/ecole-ipssi-groupe-ip-formation" title="viadeo"  target="_blank">Viadeo<img  src="images/viadeo.png" alt="viadeo"/></a></li>
+                </ul>
+              </div>           					
+            </div>
+                        <div id="menu" style="background:url(images/erreur/menu-erreur.jpg) no-repeat;"><div id="navcontenairmenu" class="wrap">
+    <ul id="navlistmenu" class="sf-menu">
+        <li  ><a href="index.php" title="ip-formation / Accueil">Accueil</a>
+        </li>
+        <li ><a href="connaitre-ip-formation.php" title="ip-formation">L'École</a>
+
+             <div class="sf-mega">
+            
+                <div class="sf-mega-section">
+
+
+<h1>L'école</h1>
+<ul>
+	<li  ><a href="connaitre-ip-formation.php" title="Tout savoir sur ip-formation">Découvrir l'école</a></li>
+	
+	<li ><a href="partenaires-ip-formation.php" title="Les partenaires du groupe ip-formation">Partenaires ipssi</a></li>
+    <li ><a href="temoignages.php">Témoignages</a></li>
+	<!-- <li  ><a href="trombinoscope.php" title="trombinoscope" >Trombinoscope</a></li> -->
+   <!--  <li  ><a href="parrainage.php" title="Parrainez vos amis">Parrainez vos amis</a></li> -->
+    <li><a href="http://www.ip-formation.net/jobphp/index_parrainage.php" title="Parrainez vos amis">Parrainez vos amis</a></li>
+
+    
+</ul>
+</div>
+
+
+
+
+<div class="sf-mega-section hidemenu">
+<h1>Admission</h1>
+<ul>
+	<li ><a href="mode_recrutement.php">Méthode de recrutement</a></li>
+	<li ><a href="criteres_recrutement.php">Critères de recrutement</a></li>
+	<li  ><a href="quizz.php" title="Testez vos connaissances informatiques">Testez vos connaissances</a></li>
+	<li ><a href="inscription.php" >S'inscrire</a></li>
+	<li ><a href="demande_informations.php" >Demande d'informations</a></li>
+	<li ><a href="journees-admission.php" title="Informez-vous des dates pour les prochaines journées d'admission">Journées d'admission</a></li>
+	<li ><a href="dates_sessions.php" title="Informez-vous des dates pour les prochaines sessions">Prochaines sessions</a></li>
+	
+</ul>
+</div>
+
+<div class="sf-mega-section">
+
+
+<!--formation initiale -->
+<!-- <div class="sf-mega-section"> -->
+<h1>Formation initiale</h1>
+<ul>
+	<li ><a href="formation_initiale.php">BAC+2 au BAC+5</a></li>	
+</ul>
+<!-- </div> -->
+<!-- FIN formation initiale-->
+
+<h1>L'alternance</h1>
+<ul>
+	<li ><a href="ip-formation-informatique-alternance.php">Qu'est-ce que l'alternance ?</a></li>
+	<li ><a href="alternance_avantages_candidat.php">Avantages du contrat pro.</a></li>
+</ul>
+
+<h1 class="hidemenu">Certifications</h1>
+<ul class="hidemenu">        
+	<li  ><a href="pourquoi-se-certifier.php" title="Les raisons pour lesquelles se certifier est important">Tout savoir sur les certifications</a></li>
+</ul>
+</div>
+
+<div class="sf-mega-section hidemenu">
+
+<h1>Recherche d'entreprise</h1>
+<ul>        
+	<li  ><a href="technique-recherche-emploi.php" title="">Tech. de recherche d’emploi</a></li>
+	<li  ><a href="dispositifs-formations.php" title="Connaitre les différents moyens d'embauche">Les dispositifs</a></li>
+	<li ><a href="contrat-de-professionnalisation.php">Contrat de professionnalisation</a></li>
+	<li ><a href="periode_pro.php">Période de professionnalisation</a></li>
+	<li ><a href="cif.php" title="">C.I.F.</a></li>	
+</ul>  
+
+</div>
+            </div>
+
+        </li>   
+     <!--    <li ><a href="formation-alternance-bts-ig-technicien-superieur-informatique-de-gestion-bts-sio-services-informatiques-organisations.php" title="ip-formation / les BTS SIO">BTS SIO</a>
+
+             <div class="sf-mega">
+            
+                <div class="sf-mega-section">
+<h1>Formations</h1>
+<ul>
+
+	<li  ><a href="formation-alternance-bts-ig-technicien-superieur-informatique-de-gestion-bts-sio-services-informatiques-organisations.php" title="Formation initiale / alternance - BTS SIO - Technicien Supérieur des Services Informatiques aux Organisations en formation en alternance BTS SIO anciennement BTS IG"><strong>BTS SIO</strong> <br/>Services Info. aux Organisations</a></li>
+
+	<li ><a href="formation-informatique-alternance-administrateur-reseau-microsoft-mcitp.php" title="Formation informatique alternance Administrateur Systèmes et Réseaux Microsoft - Certification Microsoft® Certified IT Professional Server Administrator"><strong>BAC + 4</strong> <br/> Chef de projet système et réseau</a></li>
+
+	<li ><a href="formation-informatique-developpeur-web-php-mysql.php" title="Formation informatique alternance PHP / MySQL"><strong>BAC + 4</strong> <br/>Chef de projet en développement</a></li>
+
+	<li ><a href="formation-informatique-alternance-integrateur-webdesigner-adobe-photoshop-flash-cs4.php" title="Formation informatique Intégrateur / Webdesigner"><strong>BAC + 4</strong> <br/>Directeur artistique web</a></li>
+
+</ul>
+</div>
+
+
+
+
+<div class="sf-mega-section masqueagauche">
+<h2>Objectif de la formation SIO</h2>
+
+<p><img class="masqueagauche" style="float:left;margin:2px 10px 0 0" src="images/menu/equipe_sio.jpg"/>Former des techniciens supérieurs capables d'appréhender rapidement les besoins des divers utilisateurs de l'outil informatique dans un milieu professionnel. Préparer l'examen du BTS SIO dans des conditions pédagogiques (enseignants expérimentés) et matérielles (parc informatique à jour) optimales…
+</p>
+</div>
+
+<div class="sf-mega-section masqueagauche">
+<h2>Formation initiale + alternance <br/> La formule gagnante !</h2>
+
+<p>Optez pour un mode d'enseignement efficace. 1ère année BTS SIO en initiale, vous assimilez les bases des connaissances techniques indispensables à l'accès à un 1er emploi en alternance - 2ème année BTS SIO en alternance, vos connaissances informatiques fraîchement acquises et le réseau d'entreprises de l'école ipssi et du groupe ip-formation vous permettent de signer votre contrat de professionnalisation…
+</p>
+
+</div>
+
+<div class="sf-mega-section masqueagauche">
+<h1>Certifications</h1>
+<ul>        
+	<li  ><a href="pourquoi-se-certifier.php" title="Les raisons pour lesquelles se certifier est important">Tout savoir sur les certifications <img class="masqueagauche" style="float:left;" src="images/menu/diplome.jpg" alt="Certification"/></a></li>
+</ul> 
+
+</div>            </div>
+
+        </li> -->
+
+
+        <li ><a href="formation-informatique-alternance.php" title="ip-formation / les formations informatiques en alternance">Nos cursus</a>
+
+            <div class="sf-mega">
+                <div class="sf-mega-section">
+<h1>Nos cursus</h1>
+<ul>
+
+	
+	
+	<li ><a href="formation-informatique-alternance-it-manager.php" title="It Manager - Directeur de projet - BAC + 5"><strong>MASTÈRE 2</strong> <br/>IT Manager - BAC +5</a></li>
+
+	<li ><a href="formation-informatique-alternance-administrateur-reseau-microsoft-mcitp.php" title="Formation informatique alternance Administrateur Systèmes et Réseaux Microsoft - Certification Microsoft® Certified IT Professional Server Administrator"><strong>MASTÈRE 1</strong> <br/> Système & Réseau BAC +3/+4</a></li>
+
+	<li ><a href="formation-informatique-developpeur-web-php-mysql.php" title="Formation informatique alternance PHP / MySQL"><strong>MASTÈRE 1</strong> <br/>Développement BAC +3/+4</a></li>
+
+	<li ><a href="formation-informatique-alternance-integrateur-webdesigner-adobe-photoshop-flash-cs4.php" title="Formation informatique Intégrateur / Webdesigner - Certification Adobe ACE Photoshop CS4 / Flash CS4"><strong>MASTÈRE 1</strong> <br/>Design graphique BAC +3/+4</a></li>
+
+	<li  ><a href="formation-alternance-bts-ig-technicien-superieur-informatique-de-gestion-bts-sio-services-informatiques-organisations.php" title="Formation initiale / alternance - BTS SIO - Technicien Supérieur des Services Informatiques aux Organisations en formation en alternance BTS SIO anciennement BTS IG"><strong>BTS SIO</strong> <br/>SIO - BAC +2</a></li>
+
+
+	
+
+</ul>
+</div>
+
+
+
+
+<div class="sf-mega-section masqueagauche">
+<ul>	<li ><a href="formation_initiale.php" title="Formation initiale"><strong>Formation initiale</strong> <br/></a></li></ul>
+<h2>De réelles compétences techniques et humaines </h2>
+
+<p>La formation en alternance implique un rythme soutenu car il faut endosser successivement le rôle de salarié et celui d'étudiant, et être alerte et productif dans les deux environnements.
+
+Choisir de faire une formation en alternance signifie avoir un vrai rythme de salarié, avec seulement cinq semaines de congés payés réglementaires par an et des examens techniques à passer tout au long de l'année.
+
+Le choix de la formation en alternance est donc réservé aux plus motivés et rigoureux et permet dans 80% des cas de déboucher sur en emploi en CDI !
+
+</p>
+</div>
+
+<div class="sf-mega-section masqueagauche">
+
+
+<h2>Pourquoi se certifier ?</h2>
+
+<p>Les certifications offrent un point de repère pour les recruteurs. Dans le monde de l'entreprise, elles reflètent le niveau de compétences et de maîtrise d'un candidat sur un système d'exploitation, un langage informatique, un système de gestion de bases de données...
+	<img class="masqueagauche" style="float:left;" src="images/menu/bacplusquatre.jpg" alt="bac +4"/>
+</p>
+
+</div>
+
+
+
+	<div class="sf-mega-section">
+	<h1>Certifications</h1>
+
+<ul>        
+	
+	<li  ><a href="pourquoi-se-certifier.php" title="Les raisons pour lesquelles se certifier est important">Tout savoir sur les certifications <img class="masqueagauche" style="float:left;" src="images/menu/diplome.jpg" alt="certification"/></a></li>
+
+</ul> 
+
+</div>
+
+
+            </div>
+
+
+        </li>         
+        <li ><a href="formation_montreal.php" title="ip-formation / international">International</a>
+
+            <div class="sf-mega">
+                
+<h1 class="masquetitre">International</h1>
+<ul class="menuenligne">
+        <li ><a href="formation_montreal.php">Montréal</a></li>
+</ul>            </div>
+
+        </li>     
+        <li ><a href="ip-formation-espace-employeur.php" title="ip-formation / Espace employeur">Employeur</a>
+
+             <div class="sf-mega">
+                <div class="sf-mega-section">
+<h1>Espace employeur</h1>
+<ul>
+	<li ><a href="connaitre-ip-formation-employeur.php" title="Tout savoir sur ip-formation">Connaitre ipssi et ip-formation</a></li>
+	<li ><a href="pourquoi-choisir-ip-formation-employeur.php" title="Tout savoir sur ip-formation">Pourquoi choisir ipssi&nbsp;?</a></li>
+	<!--<li  ><a href="salles-ip-formation-employeur.php" title="ip-formation dispose de salles tout équipées" >* Les locaux</a></li>-->
+	<li ><a href="nouveaute-formation-tuteur.php" title="Formation tuteur">Formation tuteur</a></li>
+	<li ><a href="suivi-apprenants.php" title="Gérer le suivi de vos apprenants">Suivi des apprenants</a></li>
+</ul>
+<h1>Taxe d'apprentissage</h1>
+<ul>
+	<li>
+		<a href="http://www.ip-formation.net/jobphp/collecte-taxe-d-apprentissage.php" title="Taxe d'apprentissage">Verser la taxe d’apprentissage</a>
+	</li>
+</ul>
+
+</div>
+
+<div class="sf-mega-section">
+<h1>L'embauche</h1>
+<ul>
+	<li ><a href="alternance_embaucher.php">Comment embaucher ?</a></li>
+	<li ><a href="alternance_avantages.php">Avantages du contrat pro.</a></li>
+</ul>
+
+<h1>Nos apprenants</h1>
+<ul>        
+	<li ><a href="cvtheque.php">Rechercher un profil</a></li>
+</ul>  
+</div>
+
+
+<div class="sf-mega-section">
+<h1>Informations pratiques</h1>
+<ul>   
+	<li ><a href="continue_employeur_moins10.php">Ent. moins de 10 salariés</a></li>		
+	<li ><a href="continue_employeur_plus10.php">Ent. plus de 10 salariés</a></li>		
+	<li ><a href="opca.php">OPCA</a></li>		
+	<li ><a href="ddte.php">DDTE</a></li>
+	<li ><a href="liens_utiles.php">Liens utiles</a></li>
+</ul>
+</div>
+<div class="sf-mega-section">
+<h1>Prestation</h1>
+<ul>
+	<li ><a href="prestation-location-de-salles.php">Location de salles <img class="masqueagauche" style="float:left;" src="images/menu/location.jpg" alt="location de salle"/></a></li>
+</ul>
+</div>            </div>
+
+        </li>
+        <li  ><a href="evenement.php" title="ip-formation / Les événements">Événements</a>
+            <div class="sf-mega">
+                <h1 class="masquetitre">Les événements</h1>
+<ul class="sf-mega-section">
+	<li ><a href="photos-rubis.php" title="Projet Rubis">Projet Rubis</a></li>
+	<li ><a href="photos-samsung-juin2013.php" title="Événement Samsung">Conférence Samsung</a></li>
+	<li ><a href="photos-jobdating.php" title="Événement Job Dating">Job Dating</a></li>
+	<li ><a href="photos-datacenter.php" title="Événement Data center">Visite datacenter</a></li>
+	<li ><a href="photos-phptour-juill2014.php" title="Événement PHP TOUR 2014">PHP TOUR 2014</a></li>
+	<li ><a href="photos-diplome-juillet-2015.php" title="Événement Cérémonie remise des diplômes juillet 2015">Remise des diplômes 2015</a></li>
+	<li ><a href="photos-aventure.php" title="Événement Aventure">Sortie "Aventure" 2015</a></li>
+</ul>            </div>
+
+        </li>
+
+        <li><a href="contact.php" title="ip-formation / contactez-nous">Contact</a></li>
+        <li><a href="http://www.ip-formation.net/jobphp/index_parrainage.php" title="Offre de parrainage">Parrainage</a></li>
+        <li><a href="vae.php" title="vae">VAE</a></li>
+        <li ><a id="active-always" href="inscription.php">S'inscrire</a></li>
+        <li><a id="logintranet" href="#">Connexion</a></li>
+    </ul>
+</div></div>
+            <div id="corps" style="min-height:620px;">
+            <div id="contenupageerreur">
+            <div id="contenu">
+               <div id="erreur404">
+	
+
+
+
+	<div id="article">
+		<h1 class="nounderline">ERREUR 404<br/>La page demandée n'éxiste plus.</h1>
+			<p style="margin-bottom:15px;"><strong class="niveau" >
+    		<a href="index.php" class="revuedepresse ofqj" style="color:#fff; width:80%" title="page d'accueil">Rendez-vous sur la page d'acccueil --> </a></strong>
+			</p>
+			<a href="index.php" title="page d'accueil"><img src="images/erreur/accroche-erreur.jpg" alt="#"></a>
+	</div>
+
+</div>            </div>
+            </div>
+   </div>
+     </div>
+</div>
+</div>
+<div id="footer" >
+    <div id="footerframe">
+        <div class="footer-div-1">
+          <ul>
+            <li><span class="menu-footer">Formations informatique</span>
+                <ul>
+                    <li>
+                        <a href="formation-informatique-alternance-it-manager.php" title="It Manager - Directeur de projet - BAC + 5">
+                            <em>MASTÈRE 2 - IT Manager</em> - BAC +5
+
+                            <br/>
+                            <span>ESI - Titre de niveau I inscrit au RNCP</span>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="formation-informatique-alternance-administrateur-reseau-microsoft-mcitp.php" title="Administrateur Systèmes et Réseaux BAC + 4">
+                         <em>MASTÈRE 1 - Système et réseau</em> - BAC +4
+
+                         <br/>
+                         <span>ASI - Titre de niveau II inscrit au RNCP</span>
+                     </a>
+                    </li>
+                    <li>
+                        <a href="formation-informatique-developpeur-web-php-mysql.php" title="Formation Développeur PHP BAC + 4">
+                        <em>MASTÈRE 1 - Développement</em> - BAC +4
+
+                        <br/>
+                        <span>ASI - Titre de niveau II inscrit au RNCP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="formation-informatique-alternance-integrateur-webdesigner-adobe-photoshop-flash-cs4.php" title="Formation informatique Webdesigner &amp; Intégrateur BAC + 4">
+                        <em>MASTÈRE 1 - Design Graphique</em> - BAC +4
+
+                        <br/>
+                        <span>ASI - Titre de niveau II inscrit au RNCP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="formation-alternance-bts-ig-technicien-superieur-informatique-de-gestion-bts-sio-services-informatiques-organisations.php" title="BTS SIO BAC+ 2">
+                        <em>BACHELOR - BTS SIO SISR SLAM</em> - BAC +2
+                        <br/>
+                        <span>Brevet Technicien Supérieur Servives Informatiques</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-div-2">
+            <ul>
+              <li><span class="menu-footer">l'école Paris - Lyon</span>
+                  <ul>
+                     <li><a href="connaitre-ip-formation.php" title="tout savoir sur École ipssi du groupe ip-formation">Connaitre l'école ipssi </a></li>
+                     <li><a href="temoignages.php" title="Les tmoignages des ancins d'ip-formation">Témoignages</a></li>
+                     <li><a href="http://www.ip-formation.net/jobphp/index_parrainage.php" title="Parrainez vos amis et gagnez des chèques cadeaux">Parrainez vos amis</a></li>
+                  </ul>
+              </li>
+            </ul>
+            <ul>
+              <li><span class="menu-footer">Conditions Admission</span>
+                  <ul>
+                      <li><a href="criteres_recrutement.php" title="Critères de recrutement">Critères de recrutement</a></li>
+                      <li><a href="quizz.php" title="Testez vos connaissances">Testez vos connaissances</a></li>
+                      <li><a href="inscription.php" title="S'inscrire">S'inscrire</a></li>
+                                      </ul>
+              </li>
+            </ul>		
+        </div>
+        <div  class="footer-div-3">
+          <ul>
+              <li>
+                        <span class="menu-footer">Recherche d'entreprise</span>
+                        <ul>
+                            <li><a href="dispositifs-formations.php" title="Les dispositifs">Les dispositifs</a></li>
+                            <li><a href="periode_pro.php" title="Période de professionnalisation">Période de professionnalisation</a></li>
+                            <li><a href="contrat-de-professionnalisation.php" title="Contrat de professionnalisation">Contrat de professionnalisation</a></li>
+                        </ul>
+              </li>
+          </ul>
+          <ul>
+            <li><span class="menu-footer">Contrat en alternance</span>
+              <ul>
+                    <li><a href="alternance.php" title="Qu'est-ce que l'alternance ?">Qu'est-ce que l'alternance ?</a>
+                    </li>
+                    <li><a href="alternance_avantages_candidat.php" title="Avantages du contrat de professionnalisation">Avantages du contrat de<br />professionnalisation</a>
+                  </li>
+              </ul>
+            </li>
+          </ul>
+          <img style="position:relative; left:0; top:20px; height:55px" src="images/design/logo2.png" alt="logotype du groupe informatique ip-formation " />
+        </div>
+        
+    </div>
+
+    <p style="display:block;clear:both;margin:25px 0 !important; color:grey;height:50px;text-align: center">&copy; 1998-2013 groupe ip-formation | PARIS : 01 55 43 26 65 | LYON : 0811 692 888 | Tous droits réservés | ><a href="contact.php">Contactez-nous</a> | <!-- <a href="plan_site.php">Plan du site</a> | --> <a href="informations_legales.php">Informations légales</a>
+    </p>          			
+</div>
+
+
+    
+    <script>
+    $(document).ready(function(){
+       var collehaut=$('#menu').offset().top;
+       var taillefenetre = $(window).width();
+       $(window).scroll(function(){
+           var hautfenetre =$(window).scrollTop();                                            
+           if(taillefenetre > 1024){
+               if(collehaut < hautfenetre){
+                   $('#decomenu').css({width:"100%", height:"31px",left:0, position:"fixed",top:0,"background-color":"#689eaa",display:"block", "z-index":5000, "box-shadow":"0 3px 10px rgba(0,0,0,0.4)"});
+                   $('#menu').css({position: 'fixed', top:0, "z-index":5000});
+
+               }
+               else{
+                   $('#menu').css({position:'relative'});
+                   $('#decomenu').css({display:"none"});
+               }
+           }
+       });
+
+
+              // formulaire
+          $('#logintranet').on("click", function(){
+            console.log("click");
+            $('#formlogin').fadeToggle('fast');
+
+
+          });
+
+          $('#formlogin').on('click', function(event){
+
+
+            if(event.target === this){
+              $('#formlogin').fadeToggle();             
+            }
+            
+
+          });
+
+          $('#annuler').click(function() {
+            $('#formlogin').fadeToggle();  
+          });
+
+
+
+  });
+
+</script>
+
+<!-- Menu superfish-->
+<script src="scripts/menu/superfish.js"></script>
+
+
+<!-- Nouveau Google Analytics ipssi 12 mai 2015 -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-62893928-1', 'auto');
+ga('send', 'pageview');
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+</html>

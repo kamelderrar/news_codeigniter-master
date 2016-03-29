@@ -1,0 +1,161 @@
+/*SLOGAN ET CONNEXION*/
+
+body {
+	padding-top: 0px !important;
+}
+#logoslogan{
+position: relative;
+height: 100%;
+}
+
+.logo{
+position: relative;
+padding-top: 15px;
+}
+.slogan{
+position: relative;
+padding-top: 35px;
+
+}
+#slogan img{
+	display: inline;
+	vertical-align:middle;
+}
+.social li{
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	margin-right: 1%;
+}
+#slogan p{
+	font-size: 1.2em;
+	color: #45718a;
+}
+.form-control {
+	padding: 6px !important;
+}
+.tnav .navbar { 
+	background:#45718a ; 
+ 
+	border: 0px;
+}
+.tnav .navbar a{ 
+	color: white;
+}
+
+.navbar-brand span{
+	margin-right: 10px;
+}
+.navbar-header{
+float: left;
+margin-left: 5%;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+}
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a{
+	color:black!important;
+}	
+.glyphicon{
+	line-height: 0.5px !important;
+}
+/**/
+p.reussite{
+	color: ;
+	background-color: ;
+}
+
+footer{
+	bottom: 0;
+	width: 100%;
+}
+.carousel-inner img{
+	width: 100%
+}
+.social {
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.monipssi {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+/*
+Ref:
+Thanks to:
+http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
+*/
+
+body {
+ background-color:#eee;   
+}    
+
+#pinBoot {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.white-panel {
+/*  position: absolute;*/
+  background: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+/*
+stylize any heading tags withing white-panel below
+*/
+
+.white-panel h1 {
+  font-size: 1em;
+}
+.white-panel h1 a {
+  color: #A92733;
+}
+.white-panel:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.bloc_programme{
+	margin-bottom: 5px;
+	height: 300px;
+}
+.bloc_programme .download_title{
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.bloc_programme a:hover{
+	text-decoration: none;
+}
+
+.bloc_programme hr{
+	margin: 0px 0px 5px 0px !important;
+	border-top: 1px solid #DCD6D6;
+}
